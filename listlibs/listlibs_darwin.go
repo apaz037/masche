@@ -5,8 +5,8 @@ package listlibs
 import "C"
 
 import (
-	"github.com/polyverse/masche/cresponse"
-	"github.com/polyverse/masche/process"
+	"github.com/apaz037/masche/cresponse"
+	"github.com/apaz037che/process"
 	"reflect"
 	"unsafe"
 )

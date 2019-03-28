@@ -13,7 +13,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/polyverse/masche/cresponse"
+	"github.com/apaz037/masche/cresponse"
 )
 
 func (p process) Name() (name string, harderror error, softerrors []error) {

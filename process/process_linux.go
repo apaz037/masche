@@ -3,7 +3,7 @@ package process
 import (
 	"bufio"
 	"fmt"
-	"github.com/polyverse/masche/common"
+	"github.com/apaz037/masche/common"
 	"io"
 	"io/ioutil"
 	"os"

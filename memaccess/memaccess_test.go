@@ -3,8 +3,8 @@ package memaccess
 import (
 	"bufio"
 	"fmt"
-	"github.com/polyverse/masche/process"
-	"github.com/polyverse/masche/test"
+	"github.com/apaz037/masche/process"
+	"github.com/apaz037che/test"
 	"os"
 	"os/exec"
 	"strconv"

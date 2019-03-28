@@ -2,8 +2,8 @@ package memsearch
 
 import (
 	"bytes"
-	"github.com/polyverse/masche/memaccess"
-	"github.com/polyverse/masche/process"
+	"github.com/apaz037/masche/memaccess"
+	"github.com/apaz037/masche/process"
 	"regexp"
 )
 

@@ -9,8 +9,8 @@ import (
 	"log"
 	"regexp"
 
-	"github.com/polyverse/masche/listlibs"
-	"github.com/polyverse/masche/process"
+	"github.com/apaz037/masche/listlibs"
+	"github.com/apaz037/masche/process"
 )
 
 var rstr = flag.String("r", "", "library name regexp")

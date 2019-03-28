@@ -1,8 +1,8 @@
 package memsearch
 
 import (
-	"github.com/polyverse/masche/process"
-	"github.com/polyverse/masche/test"
+	"github.com/apaz037/masche/process"
+	"github.com/apaz037/masche/test"
 	"regexp"
 	"testing"
 )

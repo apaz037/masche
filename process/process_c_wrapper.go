@@ -6,7 +6,7 @@ package process
 // #cgo CFLAGS: -std=c99
 import "C"
 import (
-	"github.com/polyverse/masche/cresponse"
+	"github.com/apaz037/masche/cresponse"
 	"unsafe"
 )
 
