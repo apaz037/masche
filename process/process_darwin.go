@@ -13,6 +13,12 @@ import (
 	"unsafe"
 )
 
+type darwinProcess int
+
+func getProcess(pid int) darwinProcess {
+	return darwinProcess(pid)
+}
+
 func (p process) Name() (name string, harderror error, softerrors []error) {
 	cname := C.malloc(C.PROC_PIDPATHINFO_MAXSIZE)
 	defer C.free(cname)
@@ -25,6 +31,14 @@ func (p process) Name() (name string, harderror error, softerrors []error) {
 
 	name, harderror = filepath.EvalSymlinks(C.GoString((*C.char)(cname)))
 	return
+}
+
+func (p darwinProcess) Close() (harderror error, softerrors []error) {
+	return nil, nil
+}
+
+func (p darwinProcess) Handle() uintptr {
+	return uintptr(p)
 }
 
 func getAllPids() (pids []int, harderror error, softerrors []error) {
